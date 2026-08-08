@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "corpus_version": "bath-investigation-six-records-2026-08-08.v1",
+  "corpus_sha256": "53c4411b94512b4639fe8e538337e8406665af21b535583d44018a5de214cf1a",
+  "hash_scope": "SHA-256 of RFC 8785-like canonical JSON produced by jq -cS '.records' corpus.json",
+  "snapshot_date": "2026-08-08",
+  "access": "public-read-only",
+  "license_note": "Short factual summaries and provenance metadata; follow original public sources for full content.",
+  "status_vocabulary": {
+    "confirmed": "Directly shown by the cited public source.",
+    "alleged": "Attributed claim not independently established here.",
+    "inferred": "Reasoned connection expressly identified as inference.",
+    "unknown": "The indexed slice does not answer the question."
+  },
+  "records": [
+    {
+      "id": "oor-2025-1943-publication",
+      "status": "confirmed",
+      "title": "Borough public docket identifies OOR AP 2025-1943 as closed",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "Page heading and publication metadata",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#publication",
+      "original_url": "https://bathborough.org/docket-2025-1943-pending/",
+      "snippet": "The publisher-hosted page identifies the docket as closed and displays publication and modification dates.",
+      "provenance": "Direct transcription of publisher-supplied title and dates; snapshot reviewed 2026-08-08."
+    },
+    {
+      "id": "oor-2025-1943-quickbooks",
+      "status": "confirmed",
+      "title": "Public docket summarizes the OOR ruling on QuickBooks reports",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "UPDATE September 10, 2025",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#quickbooks",
+      "original_url": "https://bathborough.org/docket-2025-1943-pending/",
+      "snippet": "The Borough states that OOR treated pulling requested Audit Trail data from QuickBooks as different from creating a new record, ordered additional reports, and did not require Excel delivery.",
+      "provenance": "Narrowly confirms what the public docket says; the linked determination controls over this summary for legal interpretation."
+    },
+    {
+      "id": "oor-2025-1943-reconsideration",
+      "status": "confirmed",
+      "title": "OOR reconsideration response is linked from the public docket",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "UPDATE October 6, 2025",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#reconsideration",
+      "original_url": "https://bathborough.org/wp-content/uploads/2025/10/2025-1943_Long-BathBorough_OOR_Response_Recon.pdf",
+      "snippet": "The docket says OOR denied the requester’s petition for reconsideration on September 30, 2025 and links the OOR response PDF.",
+      "provenance": "Public docket link and attributed docket summary; consult the linked OOR PDF for exact wording."
+    },
+    {
+      "id": "oor-2025-1943-attestation-allegation",
+      "status": "alleged",
+      "title": "Borough alleges an attempted attestation filing was not genuine",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "UPDATE July 28, 2025",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#attestation",
+      "original_url": "https://bathborough.org/docket-2025-1943-pending/",
+      "snippet": "The Borough alleges that a proposed attestation was not signed or created by the named former councilperson; this index does not independently establish that allegation.",
+      "provenance": "Attribution preserved; no independent authenticity finding or legal conclusion is made."
+    },
+    {
+      "id": "oor-2025-1943-referral-status",
+      "status": "unknown",
+      "title": "Outcome of any stated criminal referral is not established in this slice",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "July 28 and October 6 updates",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#unknown-referral",
+      "original_url": "https://bathborough.org/docket-2025-1943-pending/",
+      "snippet": "The page mentions referral or review, but this slice provides no cited charging document, disposition, or outcome.",
+      "provenance": "Absence is recorded as unknown, not as proof that an event did or did not occur."
+    },
+    {
+      "id": "oor-2025-1943-index-function",
+      "status": "inferred",
+      "title": "The Borough docket functions as a public document index for this appeal",
+      "source_title": "Docket #2025-1943 (CLOSED) – Borough of Bath",
+      "source_anchor": "Dated updates and document links",
+      "stable_url": "https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/#index-function",
+      "original_url": "https://bathborough.org/docket-2025-1943-pending/",
+      "snippet": "The page groups dated updates with document links; describing it as an index is an inference, not a publisher-supplied label.",
+      "provenance": "Inference is limited to the page’s observable structure and does not endorse its narrative."
+    }
+  ]
+}
