@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "site": "Bath Investigation",
+  "access": "public-read-only",
+  "corpus_version": "bath-investigation-six-records-2026-08-08.v1",
+  "corpus_sha256": "53c4411b94512b4639fe8e538337e8406665af21b535583d44018a5de214cf1a",
+  "purpose": "Agent-readable discovery index for exactly one sanitized six-record public corpus slice.",
+  "semantic_home": "https://mikelongfamous.github.io/bath-investigation/",
+  "deterministic_queries": [{"query":"QuickBooks","url":"https://mikelongfamous.github.io/bath-investigation/search/quickbooks/","expected_record_ids":["oor-2025-1943-quickbooks"],"expected_count":1}],
+  "corpus": {"url":"https://mikelongfamous.github.io/bath-investigation/corpus.json","raw_url":"https://raw.githubusercontent.com/MikeLongFamous/mikelongfamous.github.io/main/bath-investigation/corpus.json","record_count":6,"source_count":1},
+  "records": [{"id":"oor-ap-2025-1943","html":"https://mikelongfamous.github.io/bath-investigation/records/oor-ap-2025-1943/","source":"https://bathborough.org/docket-2025-1943-pending/","publisher":"Borough of Bath","public_basis":"Publisher-hosted public webpage and linked public document"}],
+  "status_vocabulary": {"confirmed":"Directly shown by the cited public source.","alleged":"Attributed claim not independently established here.","inferred":"Reasoned connection expressly identified as inference.","unknown":"The indexed slice does not answer the question."},
+  "boundaries": ["read-only","exactly six records","no private MIKE OS","no private Drive proxy or IDs","no credentials or account/payment data","no authentication or cookies","no writes","no legal conclusions"]
+}
