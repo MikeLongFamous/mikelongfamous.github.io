@@ -185,6 +185,13 @@ h1 { max-width: 760px; margin: 0; font-size: clamp(3.25rem, 5vw, 5rem); letter-s
 .video-section { padding-top: var(--space-6); }
 .video-frame { position: relative; overflow: hidden; width: 100%; aspect-ratio: 16 / 9; border: 1px solid var(--ink); background: var(--ink); box-shadow: 12px 12px 0 var(--accent); }
 .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.shorts-panel { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 3rem; margin-top: 2.5rem; padding: 2rem; border: 1px solid var(--ink); background: var(--paper-warm); }
+.shorts-panel h3 { margin: .35rem 0 0; font-family: var(--serif); font-size: clamp(1.45rem, 3vw, 2.2rem); line-height: 1.05; }
+.shorts-list { margin: 0; padding: 0; list-style: none; counter-reset: shorts; }
+.shorts-list li { counter-increment: shorts; border-top: 1px solid var(--rule); }
+.shorts-list li:first-child { border-top: 0; }
+.shorts-list a { display: grid; grid-template-columns: 2.5rem 1fr; gap: .65rem; align-items: baseline; padding: .85rem 0; color: var(--ink); font-weight: 760; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.shorts-list a::before { content: "0" counter(shorts); color: var(--accent-dark); font-family: var(--sans); font-size: .72rem; font-weight: 900; letter-spacing: .08em; }
 footer { padding: 2.5rem max(1.25rem, calc((100% - var(--wide)) / 2)); display: flex; justify-content: space-between; gap: 2rem; background: var(--ink); color: white; font-size: .78rem; }
 footer p { margin: 0; }
 
@@ -218,7 +225,7 @@ footer p { margin: 0; }
   .section, .review-section { width: min(calc(100% - 1.5rem), var(--wide)); }
   .horizontal-heading, .field-band, footer { align-items: flex-start; flex-direction: column; }
   .field-band span { padding: 1rem 0 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.5); }
-  .overview-grid, .two-column, .fishing-layout, .calendar-grid, .checklist-section, .contact-grid, .review-section, .source-method { grid-template-columns: 1fr; gap: 2rem; }
+  .overview-grid, .two-column, .fishing-layout, .calendar-grid, .checklist-section, .contact-grid, .review-section, .source-method, .shorts-panel { grid-template-columns: 1fr; gap: 2rem; }
   .overview-grid article { padding: 1rem 0 0; border-left: 0; border-top: 1px solid var(--rule); }
   .rule-grid { grid-template-columns: 1fr; }
   .pfbc-note { padding-left: 0; border-left: 0; border-top: 1px solid rgba(255,255,255,.35); }
