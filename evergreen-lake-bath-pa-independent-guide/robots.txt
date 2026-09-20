@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mikelongfamous.github.io/evergreen-lake-bath-pa-independent-guide/sitemap.xml
